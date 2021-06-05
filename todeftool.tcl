@@ -174,7 +174,7 @@ ttk::notebook .reframe_tabs -padding {0 0 0 0}
 ttk::label .status_frame.status_label -textvariable index_build_status
 
 proc openEditor {line_num file_name} {
-    puts "emacsclient -n +[lindex $data 3] [lindex $data 2]"
+    puts  "/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n +$line_num $file_name"
     exec /Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n +$line_num $file_name
 }
 
