@@ -2,7 +2,7 @@
 
 A tool for navigating [re-frame][] events, subscriptions and coeffects.
 
-<img src="todeftool-screenshot.png" alt="Screenshot" />
+<img width="462" src="todeftool-screenshot.png" alt="Screenshot" />
 
 ## Requirements
 
