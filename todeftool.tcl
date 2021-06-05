@@ -33,8 +33,7 @@ set reframe_data [list]
 set reframe_lookup_indices [reframeItemsDict]
 set reframe_data_labels [reframeItemsDict]
 
-#set index_build_executable "/usr/local/bin/reframe-tool"
-set index_build_executable "/Users/roland/dev/reframe-nimble/reframe"
+set index_build_executable "/usr/local/bin/reframe-tool"
 set index_build_args "index"
 set index_build_directories "-r=test-data,"
 # should be one of: "ok", "error"
